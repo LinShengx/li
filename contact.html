@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+		<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/value.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html"><img class="logo fl" src="img/logo.png"/></a>
+			<ul class="fr">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">公司介绍</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a class="current" href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img src="img/contact_banner.jpg"/>
+		</div>
+		<div class="menu">
+			   <div class="btn">
+			   	 <a class="msg" href="">联系我们</a>
+			 	 <a href="">在线咨询</a>
+			   </div>
+			  <div class="map clearfix">
+			  	<div class="location clearfix">
+			  		<div class="map" id="dituContent"></div>
+				  	<h3>雄海电子科技有限公司</h3>
+				  	<p>客服：595-82903399</p>
+				  	<p>邮箱：67697879@163.com</p>
+				  	<p>地址：中国福建省泉州晋江市安海镇水后村安海镇兴安路水头工业区128号</p>
+				  	<p>邮编：362200</p>
+			  	</div>
+		  	 	<div class="list clearfix">
+				  	 	<form id="myform">
+				  	 		 <ul>
+				  	 		 	<li><input type="text" name="" id="" value="姓名" placeholder="姓名" /></li>
+				  	 		 	<li><input type="text" name="" id="" value="电话" placeholder="电话" /></li>
+				  	 		 	<li><input type="text" name="" id="" value="邮箱" placeholder="邮箱" /></li>
+				  	 		 	<li class="button"> <textarea   placeholder="内容">内容</textarea></li>
+			  	 		 	 	<li class="footer" ><input type="submit" name="" value="提交" /></li>
+				  	 		 </ul>
+				  	 		
+				  	 	</form>
+				  	 	
+				  	 </div>
+			  </div>
+		</div>
+
+		<div class="footer">
+			<div class="main">
+				<div class="left">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">公司介绍</a></li>
+						<li><a href="news.html">新闻中心</a></li>
+						<li><a href="product.html">产品中心</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+					</ul>
+					<p>Copyright  ©  xionghai electronics technology Limited company0</p>
+				</div>
+				<div class="right">
+					<img src="img/code.png"/>
+					<ul class="footer ">
+						<li class="clearfix">
+							<img src="img/footer_icon1.png"/>
+							<span>595-82903399</span></li>
+						<li class="clearfix">
+							<img src="img/footer_icon2.png"/>
+							<span>67697879@163.com</span></li>
+						<li class="clearfix">
+							<img src="img/footer_icon3.png"/>
+							<span>中国福建省泉州晋江市安海镇水后村安海镇兴安路水头工业区128号</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	jQuery(".slidebox").slide({mainCell:".picture ul",titCell:".btn li",effect:"leftLoop",autoPlay:true,trigger:"click",titOnClassName:"select",prevCell:".prev",nextCell:".next"});
+	$('#myform').Form();
+</script>
+</html>

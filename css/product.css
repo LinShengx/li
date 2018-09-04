@@ -1,0 +1,10 @@
+.pro_details{width: 1200px;margin: 0 auto;margin-bottom: 60px;overflow: hidden;}
+.pro_details ul{margin: 0px 50px;width: 1140px;}
+.pro_details ul li{display: block;float:left;margin-right: 40px;width: 340px;height: 290px;position: relative;margin-top: 40px;}
+
+.pro_details ul li img{width: 340px;height: 246px;display: block;}
+.pro_details ul li span{width: 340px;height: 290px;display:none;position: absolute;text-align: center;line-height: 290px;color: #ffffff;background: url(../img/product.png) no-repeat;}
+.pro_details ul li a>em{display: block;font-size: 14px;color: #999999;background: #e5e5e5;width: 322px;height: 46px;line-height: 46px;text-align: right;padding-right: 18px;}
+.pro_details ul li:hover span{display: block;}
+.pro_details ul li:hover em{color: transparent;}
+

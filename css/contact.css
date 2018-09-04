@@ -1,0 +1,19 @@
+.menu{}
+.menu .btn{width: 1200px; border-bottom: 1px solid #eeeeee;margin: 0 auto;padding-bottom: 25px;padding-top: 125px;}
+.menu .btn > a{ width: 140px;height: 40px; color: #666666;font-size: 18px;display: inline-block; background: #eeeeee;text-align: center;line-height: 40px;margin-left: 72px;}
+.menu .btn a:hover,.menu .btn .msg{ background: #00a0e9;color: #FFFFFF;}
+.menu .btn .msg{ margin-left: 372px; position: relative;}
+/*.menu .msg:after{content: "" ;display: block; border: 1px solid #eeeeee; width: 1200px;position: absolute;left: -424px;bottom: -23px;}*/
+.menu .map .location {width: 1100px;margin: 0 auto; margin-top: 100px;}
+.menu .map {}
+.menu .map .location .map{width:522px;height:302px;border:#ccc solid 1px;float: left; margin-right: 60px;}
+.menu .map h3{width: 515px; float: right;margin-top: 65px;color: #666666;font-size: 18px;margin-bottom: 50px; text-align: justify;}
+.menu .map p{width: 515px;float: right;color: #666666;font-size: 14px;line-height: 30px;}
+.menu .list{ width: 1100px;margin-top: 45px;}
+.menu .list li{ display: inline-block;width: 350px;height: 40px;background: #eeeeee;margin-left: 25px;margin-bottom:25px ;}
+.menu .list li :first-child{margin: 0px; line-height: 40px;}
+.menu .list li input{width: 350px;height: 40px;background: #eeeeee;color: #999999; font-size: 14px;text-indent: 1em;}
+.menu .list .button{width: 1100px;margin: 0px; height: 170px;}
+.menu .list .button textarea{width: 1100px;height: 165px;color: #999999; font-size: 14px;text-indent: 1em;background: #eeeeee; margin-top: 5px;}
+.menu .list .footer{margin: 0px;background: none;width: 1100px;height: 240px; }
+.menu .list .footer input{width: 100px;height: 40px;background: #00a0e9;color: #FFFFFF; margin: 100px 0px 100px 500px;text-indent: 3px;cursor: pointer;}
